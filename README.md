@@ -106,7 +106,7 @@ Tweets were captured using Zeeschuimer, a tool developed by the Digital Methods 
 We also collected a number of datasets using search terms. These ‘search result’ datasets were collected in tandems: two computers were set up with the same VPN set to the same location (Phoenix, AZ) and searches were executed at the same exact time using the same Wi-Fi network. In this way, the influence of timing and location-based factors on search results were minimized. Given equipment-based limitations, only two ‘search results’ datasets could be recorded at a given time. The following sets of search terms were used:   
 </p>
 
-<p>
+<p align="center">
   <img width="588" alt="Screenshot 2024-05-14 at 11 15 27" src="https://github.com/bensaldich/ddps_final/assets/71343656/463053f3-1990-46a6-8475-49c13641f740">
 </p>
 
