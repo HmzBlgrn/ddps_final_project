@@ -24,7 +24,7 @@
 ## Introduction
 
 <p>
-In the first decade of the twenty-first century, social media was expected bring communities together. The internet had already enabled instant written communication between people living at opposite ends of the world, but social media now allowed people to participate in simultaneous social interactions within a wider community. A number of platforms offering such networks rapidly rose to prominence around this time, but very few of them garnered as much salience as Twitter.
+In the first decade of the twenty-first century, social media was expected to bring communities together. The internet had already enabled instant written communication between people living at opposite ends of the world, but social media now allowed people to participate in simultaneous social interactions within a wider community. A number of platforms offering such networks rapidly rose to prominence around this time, but very few of them garnered as much salience as Twitter.
 </p>
 
 <p>
@@ -215,13 +215,37 @@ Figure 10 depicts the number of identified  terms as a function of the partisans
 
 #### Methodology
 <p>
+To further our understanding of the feeds, we conducted a topic modeling to characterize the extent to which topics differ between the feeds of the four accounts that we created. In order for the analysis to generate more genuine and sensible results, the columns containing the tweets’ body were cleaned, notably by removing URLs. Mentions (Twitter Help Center, 2023b) were also removed because it is not always feasible to understand the context in which they were used. Although Biden and Trump emerge frequently in our results, the associated context can be derived thanks to the many supporting words which appear along with them. This is elaborated upon in the ‘Results’ part below.
+</p>
 
+<p>
+We employ BERTopic to perform the topic modeling using the ‘all-MiniLM-L6-v2’ sentence transformer. The Uniform Manifold Approximation and Production (UMAP) technique (Briggs, 2024) is applied to have more flexibility regarding the number of nearest neighbors, and modify the global and local structures accordingly. We set the parameters such that n_neighbors = 20, n_components = 5, and min_dist = 0.01 (minimum distance). Also, we use HDBSCAN clustering (Briggs, 2024) to be able to optimize the cluster size of our models. This was useful because we had targeted approximately 20 topics per dataset. This value is reached for the biggest datasets, but, for smaller ones, fewer topics emerge (with a minimum of 10 topics). The minimum cluster size was set to 20 and we have min_samples = 4. Lastly, we also use CountVectorize for the English language.
+</p>
+
+<p>
+Doing so enables us to generate the bar charts representing the Topic Word Scores for each topic for a given dataset. These outputs are then analyzed in pairs, similarly to above. For instance, the conservative ‘For You’ Topic Word Score is compared with the liberal ‘For You’ Topic Word Score to identify the differences between them.
 </p>
 
 #### Results  
 
 <p>
+Considering the results, a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds (provided as examples in Figures 6 and 7), the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
+</p>
 
+<p>
+The ‘conservative’ ‘For You’ feed results shows that illegal immigration and free speech issues are among the most important topics, whereas, for the ‘liberal’ feed, two of the four top topics are about conflicts - Palestine/Israel and Ukraine/Russia, respectively as second and fourth topics. They do appear in the ‘conservative’ results as well, but at lower ranks (eighth and twelfth respectively). Other topics, such as gun violence and Kate Middleton’s cancer are respectively ranked as the fifth and sixth topics for the ‘liberal’ account but are not encompassed by the ‘conservative’ feed results. The opposite also happens: the topic related to trans athletes is the eleventh for the ‘conservative’ account, but does not appear for the ‘liberal’ one.
+</p>
+
+<p>
+The gap is more important when analyzing the topic differences between the ‘everyone’ and ‘no one’ ‘For You’ datasets. For the former, many topics are found either in the ‘liberal’ or the ‘conservative’ accounts results. Since the ‘everyone’ account follows influencers on both sides of the political spectrum, this is not surprising. On the other hand, many of the topics for the ‘For You’ feed of the ‘no one’ account, such as NASA, Air Jordans, or Anne Hathaway are not found in any of the other three accounts' results - which was expected as well.
+</p>
+
+<p>
+Considering the ‘immigration' query, made for the four accounts, it is interesting to note that a number of international matters are represented in the topic results. This is for instance the case for the Ireland immigration issue, which flared up at the period of data collection, and is prominently featured in results of all four profiles. Similarly, immigration in Canada and in the UK are topics common to all four accounts’ search results. It is the same for immigration in two African states, Nigeria and Rwanda, featured in all four datasets with very similar vocabulary. Lastly, all datasets contain a topic related to Leonel Moreno, a Venezuelan influencer who migrated to the US and made headlines around April 2024 (Price, 2024).
+</p>
+
+<p>
+Lastly, for the ‘Israel/Palestine’ query, we observe very similar results with regard to the Topic Word Scores for both the liberal and conservative datasets. Although there is a slight difference in the order of topics, most of them, and the associated vocabulary, are identical.
 </p>
 
 <a name="limitations"></a>
@@ -263,6 +287,38 @@ To our knowledge, our study is the first to use such methodology to empirically 
 <a name="bibliography"></a>
 ## References
 <p>
-
- references here
+Alfano, M., Fard, A. E., Carter, J. A., Clutton, P., & Klein, C. (2021). Technologically scaffolded atypical cognition: The case of YouTube’s recommender system. Synthese, 199, 835-858. https://link.springer.com/article/10.1007/s11229-020-02724-x 
+Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., ... & Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. Proceedings of the National Academy of Sciences, 115(37), 9216-9221. https://www.pnas.org/doi/full/10.1073/pnas.1804840115 
+Barrett, P. M. (2022, April 20). Musk says Twitter is biased against conservatives — facts say otherwise. The Hill. https://thehill.com/opinion/technology/3273956-musk-says-twitter-is-biased-against-conservatives-facts-say-otherwise/ 
+Barrett P. M., Sims J. G. (2021). False accusation: The unfounded claim that social media companies censor conservatives. NYU Stern Center for Business and Human Rights. https://static1.squarespace.com/static/5b6df958f8370af3217d4178/t/60187b5f45762e708708c8e9/1612217185240/NYU+False+Accusation_2.pdf  
+Boxell, L., Gentzkow, M., & Shapiro, J. M. (2022). Cross-country trends in affective polarization. Review of Economics and Statistics, 1-60.
+Briggs, J. (2024). Advanced Topic Modeling with BERTopic. Pinecone. https://www.pinecone.io/learn/bertopic/ 
+Cabral, B. S. (2024, April 22). What to know about Trump’s hush-money trial. BBC. https://www.bbc.com/news/world-us-canada-68309680 
+Der Standard. (2024, March 23). Experiment: Hat der X-Algorithmus eine politische Schlagseite? DER STANDARD. https://www.derstandard.at/story/3000000212665/experiment-hat-der-x-algorithmus-eine-politische-schlagseite?ref=rss 
+Digital Methods Initiative. (2024). Zeeschuimer. GitHub. https://github.com/digitalmethodsinitiative/zeeschuimer 
+Druckman, J. N., Klar, S., Krupnikov, Y., Levendusky, M., & Ryan, J. B. (2020). Affective polarization, local contexts and public opinion in America. Nature Human Behaviour, 5(1), 28–38. https://doi.org/10.1038/s41562-020-01012-5 
+Engati. (2024). Bag of words Model. Engati. https://www.engati.com/glossary/bag-of-words 
+Epstein, R., & Robertson, R. E. (2015). The search engine manipulation effect (SEME) and its possible impact on the outcomes of elections. Proceedings of the National Academy of Sciences of the United States of America, 112(33). https://doi.org/10.1073/pnas.1419828112 
+Flam, F. (2023, June 9). Musk promised transparency, then hid Twitter data. Washington Post. https://www.washingtonpost.com/business/2023/06/09/elon-musk-says-twitter-transparency-builds-trust-it-s-all-talk-no-action/b448bdc4-06b7-11ee-b74a-5bdd335d4fa2_story.html 
+Fletcher, R., Cornia, A., & Nielsen, R. K. (2020). How Polarized Are Online and Offline News Audiences? A Comparative Analysis of Twelve Countries. The International Journal of Press/Politics, 25(2), 169-195.
+Huszár, F., Ktena, S. I., O’Brien, C., Belli, L., Schlaikjer, A., & Hardt, M. (2021). Algorithmic amplification of politics on Twitter. Proceedings of the National Academy of Sciences, 119(1). https://doi.org/10.1073/pnas.2025334119 
+Illing, S. (2018, October 1). Algorithms are controlling your life. Vox. https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry 
+Kessler, J. S. (2017). Scattertext: a browser-based tool for visualizing how corpora differ. ArXiv Preprint. https://arxiv.org/abs/1703.00565 
+Lazer, D., Swire‐Thompson, B., & Wilson, C. (2023). A normative framework for assessing the information curation algorithms of the internet. Perspectives on Psychological Science. https://doi.org/10.1177/17456916231186779 
+McInnes, L., Healy, J., & Melville, J. (2018, February 9). UMAP: uniform manifold approximation and projection for dimension reduction. arXiv.org. https://arxiv.org/abs/1802.03426 
+Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Unbiased misinformation policies sanction conservatives more than liberals. PsyArXiv Preprint. https://doi.org/10.31234/osf.io/ay9q5 
+Mozur, P. (2018, October 15). A Genocide Incited on Facebook, With Posts From Myanmar’s Military. The New York Times. https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html 
+Murel, J. & Kavlakoglu, E. (2024, January 19). What is bag of words? IBM. https://www.ibm.com/topics/bag-of-words#f01 
+Nicholas, G. (2023, April 26). Bird’s Eye View: The limits of Twitter’s algorithm release. Center for Democracy and Technology. https://cdt.org/insights/birds-eye-view-the-limits-of-twitters-algorithm-release/ 
+Perry, S. L. (2022). American religion in the era of increasing polarization. Annual Review of Sociology, 48(1), 87–107. https://doi.org/10.1146/annurev-soc-031021-114239 
+Price, S. (2024, April 3). Venezuelan “migrant influencer” who encouraged squatting under investigation for gun charges: report. Fox News. https://www.foxnews.com/politics/venezuelan-migrant-influencer-encouraged-squatting-under-investigation-gun-charges-report 
+Robertson, C. E., Pröllochs, N., Schwarzenegger, K., Pärnamets, P., Van Bavel, J. J., & Feuerriegel, S. (2023a). Negativity drives online news consumption. Nature Human Behaviour, 7(5), 812–822. https://doi.org/10.1038/s41562-023-01538-4 
+Robertson, C. T. (2023b)  Here’s what our research says about news audiences on Twitter, the platform now known as X. Reuters Institute. https://reutersinstitute.politics.ox.ac.uk/news/heres-what-our-research-says-about-news-audiences-twitter-platform-now-known-x 
+Shepherd, J. (2024, April 23). 23 Essential Twitter (X) Statistics You Need to Know in 2024. The Social Shepherd. https://thesocialshepherd.com/blog/twitter-statistics 
+Soroka, S., Fournier, P., & Nir, L. (2019). Cross-national evidence of a negativity bias in psychophysiological reactions to news. PNAS.
+https://www.pnas.org/doi/epdf/10.1073/pnas.1908369116
+Twitter Help Center. (2023a, October 11). About your For you timeline on X. Twitter. https://help.twitter.com/en/using-x/x-timeline 
+Twitter Help Center. (2023b, December 12). How to post X replies and mentions. Twitter. https://help.twitter.com/en/using-x/mentions-and-replies 
+Vogels E. A., Perrin A., & Anderson M. (2020, August 19). Most Americans think social media sites censor political viewpoints. Pew Research Center. https://www.pewresearch.org/internet/2020/08/19/most-americans-think-social-media-sites-censor-political-viewpoints/ 
+Yeung, D. (2023, January 13). The 'Digital Town Square' problem. RAND. https://www.rand.org/pubs/commentary/2023/01/the-digital-town-square-problem.html 
 </p>
