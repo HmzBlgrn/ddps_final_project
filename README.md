@@ -216,7 +216,7 @@ Figure 10 depicts the number of identified  terms as a function of the partisans
   <img width="350" img align="center" alt="Number of ID'd Terms" src="https://github.com/bensaldich/ddps_final/assets/71343656/b07624cf-157d-4226-b8f7-42921fe15cba">
 </p>
 <p align="center">
-  Figure 10: Number of ID'd Terms by Partisanship Distribution
+  Figure 10: Number of Identified Terms by Partisanship Distribution
 </p>
 
 <a name="ana_top"></a>
@@ -240,7 +240,14 @@ Doing so enables us to generate the bar charts representing the Topic Word Score
 #### Results  
 
 <p>
-Considering the results, a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds (provided as examples in Figures 6 and 7), the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
+Considering the results, a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds (provided as examples in Figures 11 and 12), the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
+</p>
+
+<p align="center">
+  <img width="250" src="https://github.com/HmzBlgrn/ddps_final_project/blob/main/Topic%20Modeling%20results.PNG" hspace="10">
+  </p>
+<p align="center">
+  Figures 11 and 12: Topic Word Scores for the ‘liberal’ (Left) and ‘conservative’ (Right) ‘For You’ feeds
 </p>
 
 <p>
