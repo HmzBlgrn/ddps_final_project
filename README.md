@@ -113,10 +113,8 @@ The tweet’s body columns in our datasets were cleaned by performing lemmatizat
 
 <a name="analyses"></a>
 ## Analyses
-<p>
 
 **Degree of Similarity of Search Results**
-
 
 <p>
 Before determining the potential influence of followership on search results, it is first important to measure the uniqueness of search results depending on the political orientation of the account. For each pair of ‘search term’ datasets (for example, con_trumpbiden and lib_trumpbiden form a pair), a binary column was created, equal to 1 if the tweet is included in the paired dataset, and 0 if the tweet is absent from the paired dataset. The degree of equivalence in the three liberal/conservative (each associated to a search query) varies between 59.7% and 77.9%, demonstrating that a significant majority of tweets appear in both datasets for a given query.
