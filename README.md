@@ -11,6 +11,13 @@
 [3. Data](#data)
 
 [4. Analyses](#analyses)
+[4.1 Degree of Similarity of Search Results](#ana_sim)
+[4.2 Partisanship Analysis](#ana_par)
+[4.2.1 Methodology](#ana_par_met)
+[4.2.2 Results](#ana_par_res)
+[4.3 Topic Modeling](#ana_top_met)
+[4.3.1 Methodology](#ana_top_res)
+[4.3.2 Results](#analyses)
 
 [5. Limitations](#limitations)
 
@@ -115,6 +122,7 @@ The tweet’s body columns in our datasets were cleaned by performing lemmatizat
 <a name="analyses"></a>
 ## Analyses
 
+<a name="ana_sim"></a>
 ### Degree of Similarity of Search Results
 
 <p>
@@ -133,8 +141,10 @@ Before determining the potential influence of followership on search results, it
 To get a more precise overview of the degree of similarity between search results, we plot the evolution of the percentage of identical tweets within a pair as the user scrolls down the tweets suggested by the algorithm. Figures 1 to 4 confirm that search results performed at the same time and in the same location (which constitute our pairs of datasets as defined above) produce relatively equivalent search results. More specifically, they all tend to suggest that the percentage is the highest within the first few hundred results, but then begin to decrease the further one scrolls in the results. In Figure 2, the proportion of equivalent results diminishes over time before beginning to increase again later in the dataset. This can, at least partially, be explained by the fact that several runs of the same search query are often necessary to collect more tweets, because the number of results is not infinite: at some point, no more tweets load and it is necessary to restart the search to gather more tweets. Lastly, it is interesting to note that the ‘immigration’ query provides results which are largely identical for both neutral accounts (the one following all influencers, and the one following no one).
 </p>
 
+<a name="ana_par"></a>
 ### Partisanship Analysis
 
+<a name="ana_par_met"></a>
 #### Methodology
 
 <p>
@@ -158,6 +168,7 @@ From this dictionary, we created columns for 1) the number of terms identified i
 These columns were added to all datasets, including both the search results and the ‘For You’ datasets. We then performed additional data cleaning, removing tweets containing fewer than four identified terms to ensure that we were only scoring tweets with enough relevant data to derive a partisanship score.
 </p>
 
+<a name="ana_par_res"></a>
 #### Results
   
 <p>
@@ -209,8 +220,10 @@ Figure 10 depicts the number of identified  terms as a function of the partisans
   Figure 10: Number of ID'd Terms by Partisanship Distribution
 </p>
 
+<a name="ana_top"></a>
 ### Topic Modeling
 
+<a name="ana_top_met"></a>
 #### Methodology
 <p>
 To further our understanding of the feeds, we conducted a topic modeling to characterize the extent to which topics differ between the feeds of the four accounts that we created. In order for the analysis to generate more genuine and sensible results, the columns containing the tweets’ body were cleaned, notably by removing URLs. Mentions (Twitter Help Center, 2023b) were also removed because it is not always feasible to understand the context in which they were used. Although Biden and Trump emerge frequently in our results, the associated context can be derived thanks to the many supporting words which appear along with them. This is elaborated upon in the ‘Results’ part below.
@@ -224,6 +237,7 @@ We employ BERTopic to perform the topic modeling using the ‘all-MiniLM-L6-v2�
 Doing so enables us to generate the bar charts representing the Topic Word Scores for each topic for a given dataset. These outputs are then analyzed in pairs, similarly to above. For instance, the conservative ‘For You’ Topic Word Score is compared with the liberal ‘For You’ Topic Word Score to identify the differences between them.
 </p>
 
+<a name="ana_top_res"></a>
 #### Results  
 
 <p>
