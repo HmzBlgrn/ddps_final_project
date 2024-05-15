@@ -14,7 +14,7 @@
 
 [5. Limitations](#limitations)
 
-[6. Conclusion](#conclusions)
+[6. Conclusion](#conclusion)
 
 [7. References](#bibliography)
 
@@ -115,7 +115,7 @@ The tweet’s body columns in our datasets were cleaned by performing lemmatizat
   </p>
 
 <a name="analyses"></a>
-## Methodology & Analyses
+## Analyses
 <p>
 
 <h4>Degree of Similarity of Search Results</h4>
@@ -253,7 +253,7 @@ This study, like others being conducted on Twitter, is also constrained by the d
   </p>
 
 
-<a name="conclusions"></a>
+<a name="conclusion"></a>
 ## Conclusion
 <p>
 All in all, this research aims to contribute to a better understanding of Twitter’s algorithm. We aim to assess whether the algorithm displays political biases with regard to the content it recommends. With over 100 million users in the United States alone (Shepherd, 2024), Twitter has the potential to influence how individuals shape their political views. Therefore, studying whether its algorithm is politically neutral is very important, since the potential societal implications are profound. 
