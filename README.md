@@ -298,11 +298,11 @@ To our knowledge, our study is the first to use such methodology to empirically 
 <a name="bibliography"></a>
 ## References
 <p>
-Alfano, M., Fard, A. E., Carter, J. A., Clutton, P., & Klein, C. (2021). Technologically scaffolded atypical cognition: The case of YouTube’s recommender system. Synthese, 199, 835-858. https://link.springer.com/article/10.1007/s11229-020-02724-x <br>
+    Alfano, M., Fard, A. E., Carter, J. A., Clutton, P., & Klein, C. (2021). Technologically scaffolded atypical cognition: The case of YouTube’s recommender system. Synthese, 199, 835-858. https://link.springer.com/article/10.1007/s11229-020-02724-x <br>
   
-Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., ... & Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. Proceedings of the National Academy of Sciences, 115(37), 9216-9221. https://www.pnas.org/doi/full/10.1073/pnas.1804840115 <br>
+    Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., ... & Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. Proceedings of the National Academy of Sciences, 115(37), 9216-9221. https://www.pnas.org/doi/full/10.1073/pnas.1804840115 <br>
 
-Barrett, P. M. (2022, April 20). Musk says Twitter is biased against conservatives — facts say otherwise. The Hill. https://thehill.com/opinion/technology/3273956-musk-says-twitter-is-biased-against-conservatives-facts-say-otherwise/ <br>
+    Barrett, P. M. (2022, April 20). Musk says Twitter is biased against conservatives — facts say otherwise. The Hill. https://thehill.com/opinion/technology/3273956-musk-says-twitter-is-biased-against-conservatives-facts-say-otherwise/ <br>
 
 Barrett P. M., Sims J. G. (2021). False accusation: The unfounded claim that social media companies censor conservatives. NYU Stern Center for Business and Human Rights. https://static1.squarespace.com/static/5b6df958f8370af3217d4178/t/60187b5f45762e708708c8e9/1612217185240/NYU+False+Accusation_2.pdf  <br>
 
