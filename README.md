@@ -256,9 +256,24 @@ This study, like others being conducted on Twitter, is also constrained by the d
 <a name="conclusions"></a>
 ## Conclusion
 <p>
-Conclusion here
+All in all, this research aims to contribute to a better understanding of Twitter’s algorithm. We aim to assess whether the algorithm displays political biases with regard to the content it recommends. With over 100 million users in the United States alone (Shepherd, 2024), Twitter has the potential to influence how individuals shape their political views. Therefore, studying whether its algorithm is politically neutral is very important, since the potential societal implications are profound. 
+  </p>
 
-</p>
+<p>
+To do so, we chose to focus on the United States because the country is strongly polarized politically. After crafting two lists of influencers, respectively Democrat and Republican, we created four different accounts, with settings as neutral as possible to limit the influence of external factors. One account follows 100 liberal influencers, a second follows 100 the conservative accounts of our list, a third does not follow anyone while a fourth follows all identified influencers (both conservative and liberal). Using Zeeschuimer on these four accounts, we collect the tweets brought forward by the algorithm for the ‘For You’ feeds, and three different search queries (related to immigration, Palestine/Israel and Trump/Biden).
+  </p>
+
+<p>
+Through the calculation of the percentage of identical tweets between relevant pairs of dataframes (example: comparing the results of the ‘liberal’ and ‘conservative’ account for the ‘Trump/Biden’ query), we find that the accounts followed by a user do not appear to influence the search results, because the majority of the search results are identical between the two accounts. We also conduct a topic modeling analysis to have a better qualitative understanding of our data. 
+  </p>
+
+<p>
+Furthermore, to estimate the political stance of the results of the algorithm, we analyze the political stance of the tweets. This is done by assigning a score to the words most frequently used by Republican and Democrats (using the ‘For You’ feeds of the ‘liberal’ and ‘conservative’ account). In line with previous studies (Huszár et al., 2021; Der Standard, 2024), our results suggest that the search results are more conservative. Namely, for all but one dataset, the words contained in the search results align more closely with terms found in the ‘conservative’ ‘For You’ dataset than they do with the ‘liberal’ ‘For You’ dataset. A limitation is that each of our ‘search result’ datasets are connected to a certain topic (immigration, Trump/Biden, or Israel/Palestine) which is not neutral politically, and the partisanship related to the underlying topic cannot be separated from the partisanship of individual terms. However, the ‘For You’ feeds of the two neutral users (the ‘no one’ and ‘everyone’ accounts) also show the same tendency, even if they (in theory) have no inherent partisanship. This suggests that Twitter’s algorithm may provide content which is slightly more aligned with conservatives to ‘neutral’ users (i.e., users with an equal mix of liberals and conservatives, or an empty profile), though the extent to which this can be deemed a ‘conservative’ algorithmic preference cannot be determined given the limitations of our inquiry.
+  </p>
+
+<p>
+To our knowledge, our study is the first to use such methodology to empirically investigate Twitter’s search results in relation to partisanship. Despite some non-negligible limitations, our results provide valuable insights, notably because right-wing politicians now regularly claim that platforms are biased against conservatives (Mosleh et al., 2024). Further research is now required to bolster the validity of the phenomenon that our study identifies, notably by considering other search queries and investigating engagement metrics as an alternative explanation for this modest conservative slant. Indeed, it could be explained by the algorithm’s aim of providing content that will maximize user’s engagement (Nicholas, 2023), with that content happening to more often be conservative.
+  </p>
 
 <a name="bibliography"></a>
 ## References
