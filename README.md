@@ -10,7 +10,7 @@
 
 [3. Data](#data)
 
-[4. Methodology & Analyses](#analyses)
+[4. Analyses](#analyses)
 
 [5. Limitations](#limitations)
 
