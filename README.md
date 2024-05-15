@@ -103,7 +103,6 @@ Tweets were captured using Zeeschuimer, a tool developed by the Digital Methods 
 We also collected a number of datasets using search terms. These ‘search result’ datasets were collected in tandems: two computers were set up with the same VPN set to the same location (Phoenix, AZ) and searches were executed at the same exact time using the same Wi-Fi network. In this way, the influence of timing and location-based factors on search results were minimized. Given equipment-based limitations, only two ‘search results’ datasets could be recorded at a given time. The following sets of search terms were used:   
   </p>
 
-  
 <p>
 <p align="center">
   <img width="588" alt="Screenshot 2024-05-14 at 11 15 27" src="https://github.com/bensaldich/ddps_final/assets/71343656/463053f3-1990-46a6-8475-49c13641f740">
@@ -143,8 +142,6 @@ Because our goal was to measure the influence of followership on search results,
   
 <p align="center">
   <img width="822" alt="Screenshot 2024-05-15 at 19 04 35" src="https://github.com/bensaldich/ddps_final/assets/71343656/9f2b8ed3-2bb8-415a-a110-93bf235dacbf">
-
-</p>
 
 <p>
 Once created, we applied those partisanship scores to the words contained in the ‘search terms’ datasets. For each tweet of each ‘search result’ data frame, we created a dictionary containing all words in that tweet that appear in the ‘For You’ term list as keys and their respective partisanship scores as their values. Because Scattertext identifies both one and two-word terms, two-word terms made up of one-word terms will have two or even three corresponding scores. Take the example of ‘joe biden’, a two-word term with a score of 0.923. This score indicates that conservatives tend to use the term ‘joe biden’ more than do liberals. However, both ‘joe’ and ‘biden’ are also included in the partisanship corpus, with two different scores, and as such, any tweet containing ‘Joe Biden’ will generate three scores, potentially distorting the results. To overcome this, we removed any one-word terms underlying two-word terms when a two-word term was present, preserving the relative partisanship score of the underlying one-word terms while prioritizing the partisanship score of two-word terms when they appear in the text.
