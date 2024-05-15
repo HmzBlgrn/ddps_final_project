@@ -44,7 +44,7 @@ When Twitter was acquired by Elon Musk in October 2022, one of his primary state
 What is less clearly understood is the impact of who one follows on one’s Twitter experience, in other words, what Twitter’s content algorithms choose to display as a result of those follows. Through our project, we intend to examine to what extent Twitter’s algorithm adapts two of its primary user feeds based on followers: the ‘For You’ feed, described by Twitter as a combination of 'accounts and Topics you follow as well as recommended posts,' and Twitter’s ‘Top’ search results, the default output of a search performed on Twitter (Twitter Help Center). Twitter has published little to no explanation to help its users understand this search results feed. Therefore, our goal is to quantify whether an account’s political affiliation (determined by the type of people they follow) has any impact on these two feeds. By creating Twitter accounts each following unique and highly partisan influencers, we compare the differing language utilized in the ‘For You’ feeds with the language employed in various search results. We hope to contribute to the understanding of the role played by Twitter in reinforcing political positions, if any. More precisely, we aim to provide an answer to two research questions:
   </p>
 
-</p>  
+<p>  
 - RQ1: How does who you follow on Twitter influence what appears in your search results?
   - Regarding RQ1, we hypothesize that Twitter provides search results that are in some way influenced by political affiliations of the accounts followed by a user.
 - RQ2: Is there a political valence of search results on a political topic?
@@ -93,7 +93,10 @@ We then created four Twitter accounts, a conservative account (following all 100
   </p>
 
 <p>
-Tweets were captured using Zeeschuimer, a tool developed by the Digital Methods Initiative at the University of Amsterdam (Digital Methods Initiative, 2024). Zeeschuimer allows an individual to capture data natively as they use social media. Once accounts were created, data was collected on the ‘For You’ feeds of each profile (which combine content made by the accounts followed and other content suggested by the algorithm) to obtain, with N being the number of tweets: 
+Tweets were captured using Zeeschuimer, a tool developed by the Digital Methods Initiative at the University of Amsterdam (Digital Methods Initiative, 2024). Zeeschuimer allows an individual to capture data natively as they use social media. Once accounts were created, data was collected on the ‘For You’ feeds of each profile (which combine content made by the accounts followed and other content suggested by the algorithm) to obtain, with N being the number of tweets:
+  </p>
+
+<p>
 - con_fy (N = 10,888)
 - lib_fy (N = 11,444)
 - noone_fy (N = 2,692)
