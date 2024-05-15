@@ -12,11 +12,11 @@
 
 [4. Analyses](#analyses)
 
-    [4.1 Degree of Similarity of Search Results](#ana_sim)
+[a. Degree of Similarity of Search Results](#ana_sim)
 
-    [4.2 Partisanship Analysis](#ana_par)
+[b. Partisanship Analysis](#ana_par)
 
-    [4.3 Topic Modeling](#ana_top_met)
+[c. Topic Modeling](#ana_top_met)
 
 [5. Limitations](#limitations)
 
