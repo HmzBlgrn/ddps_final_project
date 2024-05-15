@@ -117,7 +117,7 @@ The tweet’s body columns in our datasets were cleaned by performing lemmatizat
 <a name="analyses"></a>
 ## Analyses
 
-**Degree of Similarity of Search Results**
+### Degree of Similarity of Search Results
 
 <p>
 Before determining the potential influence of followership on search results, it is first important to measure the uniqueness of search results depending on the political orientation of the account. For each pair of ‘search term’ datasets (for example, con_trumpbiden and lib_trumpbiden form a pair), a binary column was created, equal to 1 if the tweet is included in the paired dataset, and 0 if the tweet is absent from the paired dataset. The degree of equivalence in the three liberal/conservative (each associated to a search query) varies between 59.7% and 77.9%, demonstrating that a significant majority of tweets appear in both datasets for a given query.
@@ -135,7 +135,9 @@ Before determining the potential influence of followership on search results, it
 To get a more precise overview of the degree of similarity between search results, we plot the evolution of the percentage of identical tweets within a pair as the user scrolls down the tweets suggested by the algorithm. Figures 1 to 4 confirm that search results performed at the same time and in the same location (which constitute our pairs of datasets as defined above) produce relatively equivalent search results. More specifically, they all tend to suggest that the percentage is the highest within the first few hundred results, but then begin to decrease the further one scrolls in the results. In Figure 2, the proportion of equivalent results diminishes over time before beginning to increase again later in the dataset. This can, at least partially, be explained by the fact that several runs of the same search query are often necessary to collect more tweets, because the number of results is not infinite: at some point, no more tweets load and it is necessary to restart the search to gather more tweets. Lastly, it is interesting to note that the ‘immigration’ query provides results which are largely identical for both neutral accounts (the one following all influencers, and the one following no one).
 </p>
 
-**Partisanship Analysis: Methodology**
+### Partisanship Analysis
+
+#### Methodology
 
 <p>
 Because our goal was to measure the influence of followership on search results, we first needed a way to quantify the partisanship of the ‘For You’ datasets. This cleaned data was scored using a scaled F-score from the Scattertext library to measure the significance of terms in between two categories (for our purposes liberal and conservative) (Kessler, 2017). This scaled F-Score balances the competing interests of high recall and precision. By combining our Conservative and Liberal 'For You' results into one dataframe, with a new column pertaining to what each tweet came from, we were able to create a partisanship corpus, with one and two-word terms and a ‘partisanship’ score measuring the degree to which that term appeared in the conservative tweets relative to the liberal tweets. This partisanship score is measured on a [0:1] scale, with terms relatively more prevalent among the conservative tweets garnering a score closer to 1. This partisanship corpus provides a measure of the significance of certain terms used more prevalently by one political affiliation in comparison to the other. Figure 1 displays the distribution of these terms, with terms more significant to liberal ‘For You’ dataset appearing towards the right of the x-axis, and terms more significant to conservative ‘For You’ dataset appearing towards the top of the y-axis. Terms that appear more frequently across both datasets appear in the top right corner of the figure. 
@@ -158,7 +160,7 @@ From this dictionary, we created columns for 1) the number of terms identified i
 These columns were added to all datasets, including both the search results and the ‘For You’ datasets. We then performed additional data cleaning, removing tweets containing fewer than four identified terms to ensure that we were only scoring tweets with enough relevant data to derive a partisanship score.
 </p>
 
-**Partisanship Analysis: Results**
+#### Results
   
 <p>
 When considering the partisanship scores recorded in the search results, a few notable results stand out. The first is that, for all but one dataset pair (the search result for Gaza, Palestine, or Israel), the average partisanship score is more conservative than liberal (Figure 6). This indicates that the text contained within the tweets provided by the search results align more closely with terms found in the conservative ‘For You’ dataset than they do with the ‘Liberal’ dataset. This was the case for both the ‘no one’ and ‘everyone’ ‘For You’ datasets, as well as the two datasets for the Trump/Biden query and the datasets for the immigration query. The one search result that displayed a neutral dataset was our ‘Gaza OR Israel OR Palestine’ query, a topic that we assumed would generate more discussion among progressive circles, but was found to have equal partisanship.
@@ -209,12 +211,14 @@ Figure 10 depicts the number of identified  terms as a function of the partisans
   Figure 10: Number of ID'd Terms by Partisanship Distribution
 </p>
 
-**Topic Modeling: Methodology**
+### Topic Modeling
+
+#### Methodology
 <p>
 
 </p>
 
-**Topic Modeling: Results**  
+#### Results  
 
 <p>
 
@@ -233,7 +237,6 @@ Other limitations concern our attempts to measure partisanship. While the scaled
 <p>
 This study, like others being conducted on Twitter, is also constrained by the dynamic nature of the platform. Given the company’s propensity for product change (particularly following Elon Musk’s acquisition), these results might not be relevant in a future iteration of the search results algorithm. This is worsened by the opacity of Twitter and of its algorithms, which despite Musk’s promises to bring more transparency, has increased in his era (Flam, 2023). And, although Twitter published in 2023 a snapshot of its recommendation algorithm, there is no guarantee that this is the code actually used by the company (Nicholas, 2023), since the published code is not connected to the one running on Twitter’s servers.
 </p>
-
 
 <a name="conclusion"></a>
 ## Conclusion
