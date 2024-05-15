@@ -286,37 +286,37 @@ To our knowledge, our study is the first to use such methodology to empirically 
 ## References
 <p>
 Alfano, M., Fard, A. E., Carter, J. A., Clutton, P., & Klein, C. (2021). Technologically scaffolded atypical cognition: The case of YouTube’s recommender system. Synthese, 199, 835-858. https://link.springer.com/article/10.1007/s11229-020-02724-x 
-Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., ... & Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. Proceedings of the National Academy of Sciences, 115(37), 9216-9221. https://www.pnas.org/doi/full/10.1073/pnas.1804840115 
-Barrett, P. M. (2022, April 20). Musk says Twitter is biased against conservatives — facts say otherwise. The Hill. https://thehill.com/opinion/technology/3273956-musk-says-twitter-is-biased-against-conservatives-facts-say-otherwise/ 
-Barrett P. M., Sims J. G. (2021). False accusation: The unfounded claim that social media companies censor conservatives. NYU Stern Center for Business and Human Rights. https://static1.squarespace.com/static/5b6df958f8370af3217d4178/t/60187b5f45762e708708c8e9/1612217185240/NYU+False+Accusation_2.pdf  
-Boxell, L., Gentzkow, M., & Shapiro, J. M. (2022). Cross-country trends in affective polarization. Review of Economics and Statistics, 1-60.
-Briggs, J. (2024). Advanced Topic Modeling with BERTopic. Pinecone. https://www.pinecone.io/learn/bertopic/ 
-Cabral, B. S. (2024, April 22). What to know about Trump’s hush-money trial. BBC. https://www.bbc.com/news/world-us-canada-68309680 
-Der Standard. (2024, March 23). Experiment: Hat der X-Algorithmus eine politische Schlagseite? DER STANDARD. https://www.derstandard.at/story/3000000212665/experiment-hat-der-x-algorithmus-eine-politische-schlagseite?ref=rss 
-Digital Methods Initiative. (2024). Zeeschuimer. GitHub. https://github.com/digitalmethodsinitiative/zeeschuimer 
-Druckman, J. N., Klar, S., Krupnikov, Y., Levendusky, M., & Ryan, J. B. (2020). Affective polarization, local contexts and public opinion in America. Nature Human Behaviour, 5(1), 28–38. https://doi.org/10.1038/s41562-020-01012-5 
-Engati. (2024). Bag of words Model. Engati. https://www.engati.com/glossary/bag-of-words 
-Epstein, R., & Robertson, R. E. (2015). The search engine manipulation effect (SEME) and its possible impact on the outcomes of elections. Proceedings of the National Academy of Sciences of the United States of America, 112(33). https://doi.org/10.1073/pnas.1419828112 
-Flam, F. (2023, June 9). Musk promised transparency, then hid Twitter data. Washington Post. https://www.washingtonpost.com/business/2023/06/09/elon-musk-says-twitter-transparency-builds-trust-it-s-all-talk-no-action/b448bdc4-06b7-11ee-b74a-5bdd335d4fa2_story.html 
-Fletcher, R., Cornia, A., & Nielsen, R. K. (2020). How Polarized Are Online and Offline News Audiences? A Comparative Analysis of Twelve Countries. The International Journal of Press/Politics, 25(2), 169-195.
-Huszár, F., Ktena, S. I., O’Brien, C., Belli, L., Schlaikjer, A., & Hardt, M. (2021). Algorithmic amplification of politics on Twitter. Proceedings of the National Academy of Sciences, 119(1). https://doi.org/10.1073/pnas.2025334119 
-Illing, S. (2018, October 1). Algorithms are controlling your life. Vox. https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry 
-Kessler, J. S. (2017). Scattertext: a browser-based tool for visualizing how corpora differ. ArXiv Preprint. https://arxiv.org/abs/1703.00565 
-Lazer, D., Swire‐Thompson, B., & Wilson, C. (2023). A normative framework for assessing the information curation algorithms of the internet. Perspectives on Psychological Science. https://doi.org/10.1177/17456916231186779 
-McInnes, L., Healy, J., & Melville, J. (2018, February 9). UMAP: uniform manifold approximation and projection for dimension reduction. arXiv.org. https://arxiv.org/abs/1802.03426 
-Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Unbiased misinformation policies sanction conservatives more than liberals. PsyArXiv Preprint. https://doi.org/10.31234/osf.io/ay9q5 
-Mozur, P. (2018, October 15). A Genocide Incited on Facebook, With Posts From Myanmar’s Military. The New York Times. https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html 
-Murel, J. & Kavlakoglu, E. (2024, January 19). What is bag of words? IBM. https://www.ibm.com/topics/bag-of-words#f01 
-Nicholas, G. (2023, April 26). Bird’s Eye View: The limits of Twitter’s algorithm release. Center for Democracy and Technology. https://cdt.org/insights/birds-eye-view-the-limits-of-twitters-algorithm-release/ 
-Perry, S. L. (2022). American religion in the era of increasing polarization. Annual Review of Sociology, 48(1), 87–107. https://doi.org/10.1146/annurev-soc-031021-114239 
-Price, S. (2024, April 3). Venezuelan “migrant influencer” who encouraged squatting under investigation for gun charges: report. Fox News. https://www.foxnews.com/politics/venezuelan-migrant-influencer-encouraged-squatting-under-investigation-gun-charges-report 
-Robertson, C. E., Pröllochs, N., Schwarzenegger, K., Pärnamets, P., Van Bavel, J. J., & Feuerriegel, S. (2023a). Negativity drives online news consumption. Nature Human Behaviour, 7(5), 812–822. https://doi.org/10.1038/s41562-023-01538-4 
-Robertson, C. T. (2023b)  Here’s what our research says about news audiences on Twitter, the platform now known as X. Reuters Institute. https://reutersinstitute.politics.ox.ac.uk/news/heres-what-our-research-says-about-news-audiences-twitter-platform-now-known-x 
-Shepherd, J. (2024, April 23). 23 Essential Twitter (X) Statistics You Need to Know in 2024. The Social Shepherd. https://thesocialshepherd.com/blog/twitter-statistics 
-Soroka, S., Fournier, P., & Nir, L. (2019). Cross-national evidence of a negativity bias in psychophysiological reactions to news. PNAS.
+  Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., ... & Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. Proceedings of the National Academy of Sciences, 115(37), 9216-9221. https://www.pnas.org/doi/full/10.1073/pnas.1804840115 
+  Barrett, P. M. (2022, April 20). Musk says Twitter is biased against conservatives — facts say otherwise. The Hill. https://thehill.com/opinion/technology/3273956-musk-says-twitter-is-biased-against-conservatives-facts-say-otherwise/ 
+  Barrett P. M., Sims J. G. (2021). False accusation: The unfounded claim that social media companies censor conservatives. NYU Stern Center for Business and Human Rights. https://static1.squarespace.com/static/5b6df958f8370af3217d4178/t/60187b5f45762e708708c8e9/1612217185240/NYU+False+Accusation_2.pdf  
+  Boxell, L., Gentzkow, M., & Shapiro, J. M. (2022). Cross-country trends in affective polarization. Review of Economics and Statistics, 1-60.
+  Briggs, J. (2024). Advanced Topic Modeling with BERTopic. Pinecone. https://www.pinecone.io/learn/bertopic/ 
+  Cabral, B. S. (2024, April 22). What to know about Trump’s hush-money trial. BBC. https://www.bbc.com/news/world-us-canada-68309680 
+  Der Standard. (2024, March 23). Experiment: Hat der X-Algorithmus eine politische Schlagseite? DER STANDARD. https://www.derstandard.at/story/3000000212665/experiment-hat-der-x-algorithmus-eine-politische-schlagseite?ref=rss 
+  Digital Methods Initiative. (2024). Zeeschuimer. GitHub. https://github.com/digitalmethodsinitiative/zeeschuimer 
+  Druckman, J. N., Klar, S., Krupnikov, Y., Levendusky, M., & Ryan, J. B. (2020). Affective polarization, local contexts and public opinion in America. Nature Human Behaviour, 5(1), 28–38. https://doi.org/10.1038/s41562-020-01012-5 
+  Engati. (2024). Bag of words Model. Engati. https://www.engati.com/glossary/bag-of-words 
+  Epstein, R., & Robertson, R. E. (2015). The search engine manipulation effect (SEME) and its possible impact on the outcomes of elections. Proceedings of the National Academy of Sciences of the United States of America, 112(33). https://doi.org/10.1073/pnas.1419828112 
+  Flam, F. (2023, June 9). Musk promised transparency, then hid Twitter data. Washington Post. https://www.washingtonpost.com/business/2023/06/09/elon-musk-says-twitter-transparency-builds-trust-it-s-all-talk-no-action/b448bdc4-06b7-11ee-b74a-5bdd335d4fa2_story.html 
+  Fletcher, R., Cornia, A., & Nielsen, R. K. (2020). How Polarized Are Online and Offline News Audiences? A Comparative Analysis of Twelve Countries. The International Journal of Press/Politics, 25(2), 169-195.
+  Huszár, F., Ktena, S. I., O’Brien, C., Belli, L., Schlaikjer, A., & Hardt, M. (2021). Algorithmic amplification of politics on Twitter. Proceedings of the National Academy of Sciences, 119(1). https://doi.org/10.1073/pnas.2025334119 
+  Illing, S. (2018, October 1). Algorithms are controlling your life. Vox. https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry 
+  Kessler, J. S. (2017). Scattertext: a browser-based tool for visualizing how corpora differ. ArXiv Preprint. https://arxiv.org/abs/1703.00565 
+  Lazer, D., Swire‐Thompson, B., & Wilson, C. (2023). A normative framework for assessing the information curation algorithms of the internet. Perspectives on Psychological Science. https://doi.org/10.1177/17456916231186779 
+  McInnes, L., Healy, J., & Melville, J. (2018, February 9). UMAP: uniform manifold approximation and projection for dimension reduction. arXiv.org. https://arxiv.org/abs/1802.03426 
+  Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Unbiased misinformation policies sanction conservatives more than liberals. PsyArXiv Preprint. https://doi.org/10.31234/osf.io/ay9q5 
+  Mozur, P. (2018, October 15). A Genocide Incited on Facebook, With Posts From Myanmar’s Military. The New York Times. https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html 
+  Murel, J. & Kavlakoglu, E. (2024, January 19). What is bag of words? IBM. https://www.ibm.com/topics/bag-of-words#f01 
+  Nicholas, G. (2023, April 26). Bird’s Eye View: The limits of Twitter’s algorithm release. Center for Democracy and Technology. https://cdt.org/insights/birds-eye-view-the-limits-of-twitters-algorithm-release/ 
+  Perry, S. L. (2022). American religion in the era of increasing polarization. Annual Review of Sociology, 48(1), 87–107. https://doi.org/10.1146/annurev-soc-031021-114239 
+  Price, S. (2024, April 3). Venezuelan “migrant influencer” who encouraged squatting under investigation for gun charges: report. Fox News. https://www.foxnews.com/politics/venezuelan-migrant-influencer-encouraged-squatting-under-investigation-gun-charges-report 
+  Robertson, C. E., Pröllochs, N., Schwarzenegger, K., Pärnamets, P., Van Bavel, J. J., & Feuerriegel, S. (2023a). Negativity drives online news consumption. Nature Human Behaviour, 7(5), 812–822. https://doi.org/10.1038/s41562-023-01538-4 
+  Robertson, C. T. (2023b)  Here’s what our research says about news audiences on Twitter, the platform now known as X. Reuters Institute. https://reutersinstitute.politics.ox.ac.uk/news/heres-what-our-research-says-about-news-audiences-twitter-platform-now-known-x 
+  Shepherd, J. (2024, April 23). 23 Essential Twitter (X) Statistics You Need to Know in 2024. The Social Shepherd. https://thesocialshepherd.com/blog/twitter-statistics 
+  Soroka, S., Fournier, P., & Nir, L. (2019). Cross-national evidence of a negativity bias in psychophysiological reactions to news. PNAS.
 https://www.pnas.org/doi/epdf/10.1073/pnas.1908369116
-Twitter Help Center. (2023a, October 11). About your For you timeline on X. Twitter. https://help.twitter.com/en/using-x/x-timeline 
-Twitter Help Center. (2023b, December 12). How to post X replies and mentions. Twitter. https://help.twitter.com/en/using-x/mentions-and-replies 
-Vogels E. A., Perrin A., & Anderson M. (2020, August 19). Most Americans think social media sites censor political viewpoints. Pew Research Center. https://www.pewresearch.org/internet/2020/08/19/most-americans-think-social-media-sites-censor-political-viewpoints/ 
-Yeung, D. (2023, January 13). The 'Digital Town Square' problem. RAND. https://www.rand.org/pubs/commentary/2023/01/the-digital-town-square-problem.html 
+  Twitter Help Center. (2023a, October 11). About your For you timeline on X. Twitter. https://help.twitter.com/en/using-x/x-timeline 
+  Twitter Help Center. (2023b, December 12). How to post X replies and mentions. Twitter. https://help.twitter.com/en/using-x/mentions-and-replies 
+  Vogels E. A., Perrin A., & Anderson M. (2020, August 19). Most Americans think social media sites censor political viewpoints. Pew Research Center. https://www.pewresearch.org/internet/2020/08/19/most-americans-think-social-media-sites-censor-political-viewpoints/ 
+  Yeung, D. (2023, January 13). The 'Digital Town Square' problem. RAND. https://www.rand.org/pubs/commentary/2023/01/the-digital-town-square-problem.html 
 </p>
