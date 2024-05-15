@@ -99,12 +99,10 @@ We then created four Twitter accounts, a conservative account (following all 100
 Tweets were captured using Zeeschuimer, a tool developed by the Digital Methods Initiative at the University of Amsterdam (Digital Methods Initiative, 2024). Zeeschuimer allows an individual to capture data natively as they use social media. Once accounts were created, data was collected on the ‘For You’ feeds of each profile (which combine content made by the accounts followed and other content suggested by the algorithm) to obtain, with N being the number of tweets:
 </p>
 
-<p>
 - con_fy (N = 10,888)
 - lib_fy (N = 11,444)
 - noone_fy (N = 2,692)
 - everyone_fy (N = 14,872)
-</p>
   
 <p>
 We also collected a number of datasets using search terms. These ‘search result’ datasets were collected in tandems: two computers were set up with the same VPN set to the same location (Phoenix, AZ) and searches were executed at the same exact time using the same Wi-Fi network. In this way, the influence of timing and location-based factors on search results were minimized. Given equipment-based limitations, only two ‘search results’ datasets could be recorded at a given time. The following sets of search terms were used:   
