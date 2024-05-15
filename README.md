@@ -82,7 +82,6 @@ Like many aforementioned studies, we also set our focus on the United States bec
 <a name="data"></a>
 ## Data
 
-
 <p>
 Our first step consisted in crafting an initial seedlist list of conservative and liberal influencers via Audiense, a social intelligence platform that uses followership data to cluster Twitter accounts. Considering two seed lists of conservative and liberal influencers, we extracted the 20,000 most engaged tweets posted in 2024 by any of these users. We then ranked these influencers along two dimensions: their number of tweets and the total amount of engagement garnered by their posts. These two scores were normalized on a [0:1] scale within three standard deviations from the mean, allowing us to clip outliers within our dataset by assigning them a maximum index of 1. We built our follower lists of conservative and liberal influencers by keeping the 100 highest-scoring influencers from each list. Manual qualitative evaluation was performed to assess the political polarity of these influencers. As predicted, these individuals published highly political, highly partisan content. One influencer appeared in both lists, a comedian whose political stance is liberal but whose 'anti-woke' comedy garners support from conservatives.
   </p>
