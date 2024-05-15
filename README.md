@@ -240,14 +240,7 @@ Doing so enables us to generate the bar charts representing the Topic Word Score
 #### Results  
 
 <p>
-Considering the results, a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds (provided as examples in Figures 11 and 12), the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
-</p>
-
-<p align="center">
-  <img width="250" src="https://github.com/HmzBlgrn/ddps_final_project/blob/main/Topic%20Modeling%20results.PNG" hspace="10">
-  </p>
-<p align="center">
-  Figures 11 and 12: Topic Word Scores for the ‘liberal’ (Left) and ‘conservative’ (Right) ‘For You’ feeds
+Considering the results, a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds, the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
 </p>
 
 <p>
