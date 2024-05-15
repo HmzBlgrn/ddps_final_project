@@ -238,8 +238,15 @@ Doing so enables us to generate the bar charts representing the Topic Word Score
 #### Results  
 
 <p>
-Considering the results (which are available on the project's GitHub repository), a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds, the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
+Considering the results (which are available on the project's GitHub repository), a key insight is that some topics appear for both datasets within a pair. This is not surprising, because as shown above, a significant share of tweets are found in both datasets of each pair. However, the relative importance differs, since similar topics do not appear at the same position. For example, when considering the ‘conservative’ and the ‘liberal’ ‘For You’ feeds (the formed is provided as an example on Figure 11), the topic related to the Trump’s hush money case (Cabral, 2024) appears as the fourteenth topic for the former, and the third for the latter.
 </p>
+
+<p>
+<p align="center">
+  <img width="400" alt="Screenshot 2024-05-15 at 23 26 15" src="https://github.com/bensaldich/ddps_final/assets/71343656/0cce2272-9617-4040-a6e4-ffea0eee3835">
+<p align="center">
+  Figure 11: Topic Word Scores for the ‘conservative’ (Right) ‘For You’ feed
+  </p>
 
 <p>
 The ‘conservative’ ‘For You’ feed results shows that illegal immigration and free speech issues are among the most important topics, whereas, for the ‘liberal’ feed, two of the four top topics are about conflicts - Palestine/Israel and Ukraine/Russia, respectively as second and fourth topics. They do appear in the ‘conservative’ results as well, but at lower ranks (eighth and twelfth respectively). Other topics, such as gun violence and Kate Middleton’s cancer are respectively ranked as the fifth and sixth topics for the ‘liberal’ account but are not encompassed by the ‘conservative’ feed results. The opposite also happens: the topic related to trans athletes is the eleventh for the ‘conservative’ account, but does not appear for the ‘liberal’ one.
