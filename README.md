@@ -16,7 +16,7 @@
 
 [b. Partisanship Analysis](#ana_par)
 
-[c. Topic Modeling](#ana_top_met)
+[c. Topic Modeling](#ana_top)
 
 [5. Limitations](#limitations)
 
