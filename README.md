@@ -1,5 +1,5 @@
 # Diving into the Digital Public Space: A Partisanship Analysis of Twitter Search Results and For You Feeds
-#### Ben Saldich, Hamza Belgroun & Harshad Gaikwad  – Spring 2024
+#### Hamza Belgroun, Harshad Gaikwad & Ben Saldich  – Spring 2024
 
 
 ## Table of Contents
